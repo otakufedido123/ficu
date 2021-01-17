@@ -4,7 +4,7 @@ import time
 
 ServerSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-ServerSocket.bind(('testeservidor12.herokuapp.com', 80))
+ServerSocket.bind(('wss://dj-henrique-hello-world.herokuapp.com/0.0.0.0', PORT))
 
 ServerSocket.listen(50)
 
